@@ -1,4 +1,4 @@
-baseurl: '/website/'
+baseurl: '/website'
 exclude: ['README.md']
 permalink: pretty
 title: 'Jekyll Advance Pro'
