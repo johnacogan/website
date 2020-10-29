@@ -2,7 +2,7 @@
 title: 'Analytics'
 date: 2018-11-28T15:15:26+10:00
 description: 'Bandwidth freemium termsheet interaction design influencer success client ramen business plan gamification hackathon funding.'
-icon: 'assets/images/services/icons8-google_analytics_logo.png'
+icon: 'assets/images/bruxing/icons8-google_analytics_logo.png'
 featured: true
 weight: 4
 ---

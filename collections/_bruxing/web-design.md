@@ -2,9 +2,9 @@
 title: 'Web Design'
 date: 2018-11-28T15:15:34+10:00
 description: 'Business plan hackathon handshake responsive web design.'
-icon: 'assets/images/services/icons8-web_design.png'
+icon: 'assets/images/bruxing/icons8-web_design.png'
 heroSubHeading: 'Business plan hackathon handshake responsive web design.'
-heroBackground: 'assets/images/services/headway-537308-unsplash.jpg'
+heroBackground: 'assets/images/bruxing/headway-537308-unsplash.jpg'
 heroBackgroundOverlay: false
 heroDiagonal: true
 heroDiagonalFill: false

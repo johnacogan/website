@@ -1,7 +1,7 @@
-baseurl: '/website'
+baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Advance Pro'
+title: 'iBrux'
 collections_dir: collections
 markdown: kramdown
 
@@ -10,7 +10,7 @@ sass:
   style: compact # possible values: nested expanded compact compressed
 
 collections:
-  services:
+  bruxing:
     output: true
     permalink: /:collection/:path/
   work:
@@ -25,9 +25,9 @@ collections:
 
 defaults:
   - scope:
-      type: services
+      type: bruxing
     values:
-      layout: service
+      layout: bruxing
   - scope:
       type: work
     values:
@@ -52,12 +52,12 @@ params:
   footer:
     show_menu_footer_primary: true
     show_menu_footer_secondary: true
-    show_services_links: true
+    show_bruxing_links: true
     show_work_links: true
   homepage:
-    show_services_section: true
-    services_count: 6
-    show_splash_section_one: true
+    show_bruxing_section: true
+    bruxing_count: 6
+    show_splash_section_one: false
     splash_one_image: assets/images/undraw_post_online_dkuk.svg
     splash_one_heading: We Help Business Grow
     splash_one_paragraph:
@@ -68,12 +68,12 @@ params:
       assueverit.
     splash_one_link_url: work
     splash_one_link_text: Our Work
-    show_partners: true
-    show_work_section: true
+    show_partners: false
+    show_work_section: false
     work_section_heading: Our Work
     work_count: 2
-    show_view_all_work_button: true
-  services:
+    show_view_all_work_button: false
+  bruxing:
     show_features: true
     show_splash_one_section: true
     splash_one_background_image: assets/images/kaleidico-754543-unsplash.jpg

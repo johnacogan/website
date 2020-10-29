@@ -3,26 +3,23 @@ layout: default
 title: Home
 body_classes: page-home
 header_classes: header-transparent
-heroHeading: 'Jekyll Advance'
-heroSubHeading: 'Advance is a premium, multi-purpose Jekyll theme with four content types, advanced configuration and a
-stunning, responsive design.'
+heroHeading: 'iBrux'
+heroSubHeading: 'Measure, diagnose, treat.'
 heroBackground: ''
 heroBackgroundOverlay: false
 heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: '#f4f5fb'
-meta_title: 'Jekyll Advance Pro Theme Demo'
-meta_description: 'Advance is a premium, multi-purpose Jekyll theme with four content types, advanced configuration and
-a stunning, responsive design.'
-meta_og_title: 'Jekyll Advance Theme'
+meta_title: 'iBrux'
+meta_description: 'Measure, diagnose, treat.'
+meta_og_title: 'iBrux'
 meta_og_type: website
 meta_og_url: 'https://jekyll-advance-pro.netlify.com'
 meta_og_image: 'https://www.zerostatic.io/theme/jekyll-advance-pro/tn.png'
-meta_og_description: 'Advance is a premium, multi-purpose Jekyll theme with four content types, advanced configuration
-and a stunning, responsive design.'
+meta_og_description: 'Measure, diagnose, treat.'
 meta_twitter_card: summary
-meta_twitter_site: '@zerostaticio'
-meta_twitter_creator: '@zerostaticio'
+meta_twitter_site: '@ibrux'
+meta_twitter_creator: '@ibrux'
 ---
 
 <!-- Hero Image Partial-->
@@ -37,70 +34,70 @@ diagonal=page.heroDiagonal
 diagonalfill=page.heroDiagonalFill
 %}
 
-{% assign services = site.services | where: "featured", true | sort:'weight' %}
-{% if services.size > 0 and site.params.homepage.show_services_section %}
+{% assign bruxing = site.bruxing | where: "featured", true | sort:'weight' %}
+{% if bruxing.size > 0 and site.params.homepage.show_bruxing_section %}
 <div class="strip strip-grey pb-10 pt-6">
   <div class="container d-none d-md-block">
     <div class="row justify-content-center">
       <div class="col-12">
-        <h2 class="text-center mb-3">Our Services</h2>
+        <h2 class="text-center mb-3">Why we are different</h2>
       </div>
-      {% for service in services limit: 4%}
+      {% for bruxing in bruxing limit: 4%}
       <div class="col-12 col-md-6 col-lg-6 mb-2">
-        <div class="service service-summary">
-          {% if service.icon %}
-          <div class="service-image">
-            <img src="{{service.icon | relative_url}}" />
+        <div class="bruxing bruxing-summary">
+          {% if bruxing.icon %}
+          <div class="bruxing-image">
+            <img src="{{bruxing.icon | relative_url}}" />
           </div>
           {% endif %}
-          <div class="service-title">
-            <h2><a href="{{ service.url | relative_url}}">{{ service.title }}</a></h2>
+          <div class="bruxing-title">
+            <h2><a href="{{ bruxing.url | relative_url}}">{{ bruxing.title }}</a></h2>
           </div>
-          <div class="service-description">
-            <p>{{ service.description }}</p>
+          <div class="bruxing-description">
+            <p>{{ bruxing.description }}</p>
           </div>
-          <div class="service-content">{{ service.content | truncate: 120 }}</div>
-          <div class="service-link">
-            <a class="service-read-more" href="{{ service.url | relative_url}}">Read More<i class="fas fa-long-arrow-alt-right ml-1"></i></a>
+          <div class="bruxing-content">{{ bruxing.content | truncate: 120 }}</div>
+          <div class="bruxing-link">
+            <a class="bruxing-read-more" href="{{ bruxing.url | relative_url}}">Read More<i class="fas fa-long-arrow-alt-right ml-1"></i></a>
           </div>
         </div>
       </div>
       {% endfor %}
       <div class="col-12 text-center">
-        <a class="button button-primary text-center" href="{{ 'services' | relative_url }}">View All Services</a>
+        <a class="button button-primary text-center" href="{{ 'bruxing' | relative_url }}">View All Why we are different</a>
       </div>
     </div>
   </div>
   <div class="container d-block d-md-none">
     <div class="row justify-content-start">
       <div class="col-12">
-        <h2 class="text-center mb-3">Our Services</h2>
+        <h2 class="text-center mb-3">Why we are different</h2>
       </div>
     </div>
     <div class="slider">
-      {% for service in services %}
-      <div class="service service-summary">
-        {% if service.icon %}
-        <div class="service-image">
-          <img src="{{service.icon | relative_url}}" />
+      {% for bruxing in bruxing %}
+      <div class="bruxing bruxing-summary">
+        {% if bruxing.icon %}
+        <div class="bruxing-image">
+          <img src="{{bruxing.icon | relative_url}}" />
         </div>
         {% endif %}
-        <div class="service-title">
-          <h2><a href="{{ service.url | relative_url}}">{{ service.title }}</a></h2>
+        <div class="bruxing-title">
+          <h2><a href="{{ bruxing.url | relative_url}}">{{ bruxing.title }}</a></h2>
         </div>
-        <div class="service-description">
-          <p>{{ service.description }}</p>
+        <div class="bruxing-description">
+          <p>{{ bruxing.description }}</p>
         </div>
-        <div class="service-content">{{ service.content | truncate: 180 }}</div>
-        <div class="service-link">
-          <a class="service-read-more" href="{{ service.url | relative_url}}">Read More<i class="fas fa-long-arrow-alt-right ml-1"></i></a>
+        <div class="bruxing-content">{{ bruxing.content | truncate: 180 }}</div>
+        <div class="bruxing-link">
+          <a class="bruxing-read-more" href="{{ bruxing.url | relative_url}}">Read More<i class="fas fa-long-arrow-alt-right ml-1"></i></a>
         </div>
       </div>
       {% endfor %}
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <a class="button button-primary mt-2" href="{{ 'services' | relative_url }}">View All Services</a>
+        <a class="button button-primary mt-2" href="{{ 'bruxing' | relative_url }}">View All Why we are different</a>
       </div>
     </div>
   </div>
@@ -207,6 +204,7 @@ diagonalfill=page.heroDiagonalFill
     <path class="svg-grey" d="M738,99l262-93V0H0v5.6L738,99z"></path>
   </svg>
 </div>
+
 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/libs/slick.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/pages/home.js"></script>

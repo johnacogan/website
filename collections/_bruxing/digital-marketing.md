@@ -2,7 +2,7 @@
 title: 'Digital Marketing'
 date: 2018-11-18T12:33:46+10:00
 description: 'Validation social media series A financing startup monetization twitter strategy infographic conversion client crowdsource ecosystem.'
-icon: 'assets/images/services/icons8-touch_id.png'
+icon: 'assets/images/bruxing/icons8-touch_id.png'
 featured: true
 weight: 6
 ---

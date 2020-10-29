@@ -2,7 +2,7 @@
 title: 'Branding'
 date: 2018-11-28T15:14:39+10:00
 description: 'Vesting period rockstar beta ramen partnership gen-z burn rate.'
-icon: 'assets/images/services/icons8-adobe_indesign.png'
+icon: 'assets/images/bruxing/icons8-adobe_indesign.png'
 featured: true
 weight: 3
 ---

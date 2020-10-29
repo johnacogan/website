@@ -2,9 +2,9 @@
 title: 'Web Development'
 date: 2018-11-28T15:14:54+10:00
 description: 'Crowdfunding android beta iPad pitch client mass market interaction design.'
-icon: 'assets/images/services/icons8-source_code.png'
+icon: 'assets/images/bruxing/icons8-source_code.png'
 heroSubHeading: 'Crowdfunding android beta iPad pitch client mass market interaction design.'
-heroBackground: 'assets/images/services/zany-jadraque-571205-unsplash.jpg'
+heroBackground: 'assets/images/bruxing/zany-jadraque-571205-unsplash.jpg'
 heroBackgroundOverlay: false
 heroHeight: 500
 heroDiagonal: true
