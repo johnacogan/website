@@ -1,4 +1,4 @@
-baseurl: '/website/'
+baseurl: '/https://johnacogan.github.io/website/'
 # baseurl: ''
 exclude: ['README.md']
 permalink: pretty
