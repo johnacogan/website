@@ -14,7 +14,7 @@ collections:
   bruxing:
     output: true
     permalink: /:collection/:path/
-  work:ct
+  work:
     output: true
     permalink: /:collection/:path/
   team:
